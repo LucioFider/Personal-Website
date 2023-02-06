@@ -15,6 +15,8 @@ import Testimonials from "./Testimonials";
 export {
   Button,
   CardDeal,
+  Business,
+  Billing,
   Clients,
   CTA,
   FeedbackCard,
