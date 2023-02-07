@@ -5,7 +5,7 @@ import FeedbackCard from "./FeedbackCard";
 
 const Testimonials = () => (
   <section
-    className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
+    className={`${styles.paddingY} ${styles.flexCenter} flex-col relative bg-primary bg-bill-pattern bg-blend-color-dodge`}
   >
     {/* todo */}
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient" />

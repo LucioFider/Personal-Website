@@ -14,7 +14,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
-        "hero-pattern": "url('./assets/grid-tunnel.svg')",
+        "hero-pattern": "url('./assets/square.svg')",
         "bill-pattern": "url('./assets/organize.svg')",
         "section-pattern": "url('./assets/2-cross.svg')",
       },

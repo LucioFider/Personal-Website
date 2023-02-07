@@ -4,7 +4,7 @@ import styles, { layout } from "../style";
 
 const Billing = () => (
   <section
-    className={`${layout.sectionReverse} bg-hero-pattern bg-blend-darken`}
+    className={`${layout.sectionReverse}bg-primary bg-hero-pattern bg-blend-color-dodge`}
   >
     <div className={layout.sectionImgReverse}>
       <img
