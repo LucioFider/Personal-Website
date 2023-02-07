@@ -10,6 +10,11 @@ const Billing = () => (
         alt="billing"
         className="w-[100%] h-[100%] relative z-[5]"
       />
+      {/* Animation */}
+      <div className="absolute top-20 -left-14 w-96 h-96 bg-purple-300 rounded-full mix-blend-hue filter blur-xl opacity-70 animate-blob"></div>
+      <div className="absolute -top-5 left-15 w-96 h-96 bg-yellow-300 rounded-full mix-blend-saturation filter blur-xl opacity-70 animate-blob"></div>
+      <div className="absolute -bottom-15 left-10 w-96 h-96 bg-violet-300 rounded-full mix-blend-luminosity filter blur-xl opacity-70 animate-blob"></div>
+
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
       <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
     </div>
