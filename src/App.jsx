@@ -1,14 +1,12 @@
 import styles from "./style";
 import {
-  Button,
   CardDeal,
   Clients,
   Business,
   Billing,
   CTA,
-  FeedbackCard,
+  Projects,
   Footer,
-  GetStarted,
   Hero,
   Navbar,
   Stats,
@@ -38,6 +36,7 @@ function App() {
           <Billing />
           <CardDeal />
           <Testimonials />
+          <Projects />
           <Clients />
           <CTA />
           <Footer />

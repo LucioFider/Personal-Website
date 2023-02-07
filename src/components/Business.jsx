@@ -10,8 +10,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
     } feature-card`}
   >
     {/* Animation */}
-    <div className="absolute top-20 -left-14 w-96 h-96 bg-purple-300 rounded-full mix-blend-hue filter blur-xl opacity-70 animate-blob"></div>
-    <div className="absolute -top-5 left-15 w-96 h-96 bg-yellow-300 rounded-full mix-blend-saturation filter blur-xl opacity-70 animate-blob"></div>
+    <div className="absolute top-20 -left-14 w-96 h-96 bg-[#3bc9db] rounded-full mix-blend-hue filter blur-xl opacity-70 animate-blob -z-2"></div>
+    <div className="absolute -top-5 left-15 w-96 h-96 bg-[#ffd43b] rounded-full mix-blend-saturation filter blur-xl opacity-70 animate-blob -z-2"></div>
 
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
