@@ -3,7 +3,9 @@ import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 
 const Billing = () => (
-  <section className={layout.sectionReverse}>
+  <section
+    className={`${layout.sectionReverse} bg-hero-pattern bg-blend-darken`}
+  >
     <div className={layout.sectionImgReverse}>
       <img
         src={bill}

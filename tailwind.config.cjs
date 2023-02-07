@@ -15,6 +15,8 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('./assets/grid-tunnel.svg')",
+        "bill-pattern": "url('./assets/organize.svg')",
+        "section-pattern": "url('./assets/2-cross.svg')",
       },
       animation: {
         blob: "blob 7s infinite",

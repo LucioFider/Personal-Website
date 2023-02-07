@@ -6,7 +6,7 @@ import GetStarted from "./GetStarted";
 const Hero = () => (
   <section
     id="home"
-    className={`flex md:flex-row flex-col ${styles.paddingY} relative bg-hero-pattern`}
+    className={`flex md:flex-row flex-col ${styles.paddingY} relative `}
   >
     <div className="absolute top-20 -left-14 w-96 h-96 bg-purple-300 rounded-full mix-blend-hue filter blur-xl opacity-70 animate-blob "></div>
     <div className="absolute -top-5 left-15 w-96 h-96 bg-yellow-300 rounded-full mix-blend-saturation filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
