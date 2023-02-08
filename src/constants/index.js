@@ -210,3 +210,53 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+export const pricingPlans = [
+  {
+    title: "Personal sites",
+    price: 500,
+    currency: "PGK",
+    frequency: "One-off payment",
+    description: "Personal website for Professionels",
+    fetaures: [
+      "Elegant Design",
+      "1-3 pages",
+      "Links to Networking sites",
+      "12-months support",
+    ],
+    cta: "Get Started",
+    mostPopular: false,
+  },
+  {
+    title: "Business sites",
+    price: 1500,
+    currency: "PGK",
+    frequency: "One-off payment",
+    description: "Business website for Companies",
+    fetaures: [
+      "Elegant Design",
+      "5-6 pages",
+      "1-page-Shop",
+      "12-months support",
+      "Marketing Automations",
+    ],
+    cta: "Get Started",
+    mostPopular: true,
+  },
+  {
+    title: "E-Commerce sites",
+    price: 2500,
+    currency: "PGK",
+    frequency: "One-off payment",
+    description: "E-Commerce sites for business",
+    fetaures: [
+      "Elegant Design",
+      "All-E-commerce features",
+      "Advanced Analytics",
+      "12-months support",
+      "Marketing Automations",
+    ],
+    cta: "Get Started",
+    mostPopular: false,
+  },
+];

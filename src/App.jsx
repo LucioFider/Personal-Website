@@ -11,6 +11,7 @@ import {
   Navbar,
   Stats,
   Testimonials,
+  Pricing
 } from "./components";
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           <CardDeal />
           <Testimonials />
           <Projects />
+          <Pricing/>
           <Clients />
           <CTA />
           <Footer />
