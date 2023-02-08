@@ -29,6 +29,8 @@ import pro3 from "./pro3.png";
 import pro4 from "./pro4.png";
 import pro5 from "./pro5.png";
 import pro6 from "./pro6.png";
+import pro7 from "./pro7.png";
+import pro8 from "./pro8.png";
 
 export {
   airbnb,
@@ -62,4 +64,6 @@ export {
   pro4,
   pro5,
   pro6,
+  pro7,
+  pro8,
 };
