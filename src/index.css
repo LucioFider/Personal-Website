@@ -18,7 +18,10 @@
   scroll-behavior: smooth;
 }
 
-@layer utilities{
+@layer utilities {
+  .square {
+    aspect-ratio: 1/1;
+  }
   .animation-delay-2000 {
     animation-delay: 2s;
   }
