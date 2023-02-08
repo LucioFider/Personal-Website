@@ -4,10 +4,10 @@ import styles from "../style";
 
 const PriceCards = () => {
   return (
-    <div className="grid grid-cols-3 gap-8 py-24">
+    <div className={`${styles.section} grid grid-cols-3 gap-8 py-24`}>
       {pricingPlans.map((plan) => (
         <div
-          className=" text-black border border-[#0b7285] shadow-lg p-8  rounded-2xl relative flex flex-col"
+          className=" text-black border border-[#0b7285] shadow-lg p-8  rounded-2xl flex flex-col relative"
           key={plan.title}
         >
           <h3 className="font-poppins text-lg font-semibold leading-5 text-gradient">
@@ -19,6 +19,11 @@ const PriceCards = () => {
               Most Popular
             </p>
           )}
+
+          {/* Animation */}
+          <div className="absolute top-20 -left-14 w-64 h-64 bg-[#da77f2] rounded-full mix-blend-hue filter blur-lg opacity-70 animate-blob "></div>
+          <div className="absolute -top-5 left-15 w-64 h-64 bg-[#9775fa] rounded-full mix-blend-saturation filter blur-lg opacity-70 animate-blob animation-delay-4000"></div>
+          <div className="absolute -bottom-15 left-10 w-64 h-64 bg-[#1c7ed6] rounded-full mix-blend-screen filter blur-lg opacity-70 animate-blob animation-delay-2000"></div>
 
           <p className="mt-4 text-gray-500 leading-6">{plan.description}</p>
 
