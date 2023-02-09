@@ -38,23 +38,24 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: " Improved User Experience",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "A well-designed website with a clean and intuitive interface can provide a better user experience, making it easier for visitors to find the information they need, navigate the site, and engage with its content. This can lead to increased engagement, higher levels of customer satisfaction, and increased conversions.",
   },
+
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Enhanced Brand Image",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "A well-designed website can help to establish a strong brand image and reinforce your company's values and message. It can also help to create a professional and trustworthy image, which can be essential in building credibility and attracting new customers.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Increased Online Visibility",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "A well-optimized website with effective search engine optimization (SEO) strategies can increase your online visibility and help you rank higher in search engine results pages (SERPs). This can result in increased traffic to your site and more opportunities to engage with your target audience. In addition, having a responsive and mobile-friendly website can help to ensure that your site is accessible to a wider audience, including those who access the internet primarily via mobile devices.",
   },
 ];
 

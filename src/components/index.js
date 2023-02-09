@@ -12,7 +12,8 @@ import Navbar from "./Navbar";
 import Stats from "./Stats";
 import Testimonials from "./Testimonials";
 import Projects from "./Projects";
-import Pricing from "./Pricing"
+import Pricing from "./Pricing";
+import Contact from "./Contact";
 
 export {
   Button,
@@ -29,5 +30,6 @@ export {
   Stats,
   Testimonials,
   Projects,
-  Pricing
+  Pricing,
+  Contact,
 };

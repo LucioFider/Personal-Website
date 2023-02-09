@@ -11,7 +11,8 @@ import {
   Navbar,
   Stats,
   Testimonials,
-  Pricing
+  Pricing,
+  Contact,
 } from "./components";
 
 function App() {
@@ -38,9 +39,10 @@ function App() {
           <CardDeal />
           <Testimonials />
           <Projects />
-          <Pricing/>
+          <Pricing />
           <Clients />
           <CTA />
+          <Contact />
           <Footer />
         </div>
       </div>
