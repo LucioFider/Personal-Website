@@ -1,6 +1,17 @@
 import React from "react";
 import styles, { layout } from "../style";
-import { pro1, pro2, pro3, pro4, pro5, pro6, pro7, pro8 } from "../assets";
+import {
+  pro1,
+  pro2,
+  pro3,
+  pro4,
+  pro5,
+  pro6,
+  pro7,
+  pro8,
+  show,
+  ilw,
+} from "../assets";
 
 const Projects = () => (
   <section className={`${layout.section} grid place-items-center min-h-screen`}>
@@ -23,49 +34,49 @@ const Projects = () => (
       </p>
 
       <img
-        src={pro1}
+        src={show}
         alt="project-1"
         className="h-16 xs:h-auto xs:square rounded-xl object-cover"
       />
 
       <img
-        src={pro2}
+        src={show}
         alt="project-2"
         className="h-16 xs:h-auto xs:square rounded-xl object-cover"
       />
 
       <img
-        src={pro3}
+        src={show}
         alt="project-3"
         className="h-16 xs:h-auto xs:square rounded-xl object-cover"
       />
 
       <img
-        src={pro4}
+        src={show}
         alt="project-4"
         className="h-16 xs:h-auto xs:square rounded-xl md:col-start-2 object-cover"
       />
 
       <img
-        src={pro5}
+        src={show}
         alt="project-5"
         className="h-16 xs:h-auto xs:square rounded-xl object-cover"
       />
 
       <img
-        src={pro6}
+        src={show}
         alt="project-6"
         className="h-16 xs:h-auto xs:square rounded-xl object-cover"
       />
 
       <img
-        src={pro7}
+        src={show}
         alt="project-7"
         className="h-16 xs:h-auto xs:square rounded-xl object-cover"
       />
 
       <img
-        src={pro8}
+        src={show}
         alt="project-8"
         className="h-16 xs:h-auto xs:square rounded-xl object-cover"
       />

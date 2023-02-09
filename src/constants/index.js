@@ -88,18 +88,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Web Development",
+    value: "I do",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "App Development",
+    value: "&",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "E-Commerce Solutions",
+    value: "+",
   },
 ];
 
@@ -217,7 +217,7 @@ export const pricingPlans = [
     price: 500,
     currency: "PGK",
     frequency: "One-off payment",
-    description: "Personal website for Professionels",
+    description: "Portfolio websites for Professionels",
     fetaures: [
       "Elegant Design",
       "1-3 pages",
