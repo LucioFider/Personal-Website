@@ -43,6 +43,7 @@ function App() {
           <Pricing />
           <Clients />
           <CTA />
+          <FAQ />
           <Contact />
           <Footer />
         </div>

@@ -261,3 +261,22 @@ export const pricingPlans = [
     mostPopular: false,
   },
 ];
+
+export const faqData = [
+  {
+    title: "Question 1",
+    desc: "Lorem ipson this is the answer to the first question.",
+  },
+  {
+    title: "Question 2",
+    desc: "Lorem ipson this is the answer to the first question.",
+  },
+  {
+    title: "Question 3",
+    desc: "Lorem ipson this is the answer to the first question.",
+  },
+  {
+    title: "Question 4",
+    desc: "Lorem ipson this is the answer to the first question.",
+  },
+];
