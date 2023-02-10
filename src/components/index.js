@@ -14,6 +14,7 @@ import Testimonials from "./Testimonials";
 import Projects from "./Projects";
 import Pricing from "./Pricing";
 import Contact from "./Contact";
+import FAQ from "./FAQ";
 
 export {
   Button,
@@ -32,4 +33,5 @@ export {
   Projects,
   Pricing,
   Contact,
+  FAQ,
 };

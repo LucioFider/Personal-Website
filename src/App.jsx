@@ -13,6 +13,7 @@ import {
   Testimonials,
   Pricing,
   Contact,
+  FAQ,
 } from "./components";
 
 function App() {
